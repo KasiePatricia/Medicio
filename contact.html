@@ -15,59 +15,48 @@
     <title>Contacts</title>
   </head>
   <body>
-    <div id="topbar" class="d-flex align-items-center fixed-top fs-6">
-        <div class="container d-flex align-items-center justify-content-center justify-content-md-between">
-          <div class="align-items-center d-none d-md-flex">
-             <i class="bi bi-clock"></i>
-             Monday - Saturday, 8AM to 8PM
-           </div>
-           <div class="d-flex align-items-center">
-              <i class="bi bi-phone"></i>
-              Call us now +234 703 436 7299
-            </div>
-          </div>
-    </div>
     <header id="header" class="fixed-top">
-      <nav class="navbar navbar-expand-lg bg-light gg">
+      <nav class="navbar navbar-expand-lg bg-light border-bottom border-warning border-3">
         <div class="container">
-          <a class="navbar-brand" href="#"><h3>Nora Clinic</h3></a>
+          <a class="navbar-brand" href="#"><h2 class="text-warning fw-bold">Nora Clinic</h2></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-uppercase text-nowrap fs-6">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-nowrap fw-bold fs-6">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html">About Us</a>
+                <a class="nav-link text-secondary" href="about.html">About Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Doctors</a>
+                <a class="nav-link text-secondary" href="#">Doctors</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Departments</a>
+                <a class="nav-link text-secondary" href="#">Departments</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pages</a>
+                <a class="nav-link text-secondary" href="#">Pages</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contacts</a>
+                <a class="nav-link text-secondary" href="contact.html">Contacts</a>
               </li>
             </ul>
             <form class="d-flex" role="search">
-              <button class="btn my-btn" type="submit">Call us Today</button>
+              <button class="btn bg-page" type="submit">Call us Today</button>
             </form>
           </div>
         </div>
       </nav>
     </header>
     <main id="main">
-      <section id="contact" class="contact mt-5 pt-5">
+      <section id="contact" class="contact mt-5 pt-5 bg-light">
         <div class="container">
-          <div class="text-center section-title">
-            <h2 class="text-uppercase pt-5 mb-4 pb-4 h3 position-relative text-warning">Contact</h2>
-            <p>We review and accept patient's request on a 24/7 basis. Please, contact us now:</p>
+          <div class="text-center">
+            <h2 class="text-uppercase pt-3 pb-4 h3 text-warning">Contact</h2>
+            <img src="img/contact.jpg" alt="hospital" class="img-fluid" height="100px">
+            <p class="pt-3">We review and accept patient's request on a 24/7 basis. for your complaints, requests, appointment and inquires. Please, contact us now:</p>
           </div>
         </div>
         <div class="container">
@@ -115,7 +104,7 @@
                   <textarea class="form-control p-3 rounded-2" name="name" rows="5" placeholder="Message" required></textarea>
                 </div>
                 <div class="text-center">
-                  <button type="submit" class="py-2 px-3 border-0 bg-page mt-4 rounded-pill">Send Message</button>
+                  <button type="submit" class="btn bg-page mt-4 rounded-pill">Send Message</button>
                 </div>
               </form>
             </div>
@@ -131,13 +120,6 @@
               <div class="mb-4">
                 <h3>Nora Clinic</h3>
                 <p class="fw-light"> 3 Sani Avenue <br> Enugu, Nigeria<br><br> <strong>Phone:</strong> +234 703 436 7299<br> <strong>Email:</strong> info@example.com<br></p>
-                <div class="mt-3">
-                  <a href="#" class="twitter d-inline-block fs-4 bg-page lh-1 p-1 rounded-circle me-1"><i class="bx bxl-twitter"></i></a>
-                  <a href="#" class="facebook fs-4 bg-page lh-1 p-1 rounded-circle me-1"><i class="bx bxl-facebook"></i></a>
-                  <a href="#" class="instagram fs-4 bg-page lh-1 p-1 rounded-circle me-1"><i class="bx bxl-instagram"></i></a>
-                  <a href="#" class="google-plus fs-4 bg-page lh-1 p-1 rounded-circle me-1"><i class="bx bxl-google-plus"></i></a>
-                  <a href="#" class="linkedin fs-4 bg-page lh-1 p-1 rounded-circle me-1"><i class="bx bxl-linkedin"></i></a>
-                </div>
               </div>
             </div>
             <div class="col-lg-2 col-md-6 footer-links">
@@ -175,43 +157,16 @@
         <div class="text-center text-white">
           <div class="copyright pt-4"> © Copyright <strong><span>Nora Clinic</span></strong>. All Rights Reserved
           </div>
-          <div class="fs-6 pt-2"> Designed by
+          <div class="mt-3">
+            <a href="#" class="twitter d-inline-block fs-4 bg-page lh-1 p-1 rounded-circle me-1"><i class="bx bxl-twitter"></i></a>
+            <a href="#" class="facebook fs-4 bg-page lh-1 p-1 rounded-circle me-1"><i class="bx bxl-facebook"></i></a>
+            <a href="#" class="instagram fs-4 bg-page lh-1 p-1 rounded-circle me-1"><i class="bx bxl-instagram"></i></a>
+            <a href="#" class="google-plus fs-4 bg-page lh-1 p-1 rounded-circle me-1"><i class="bx bxl-google-plus"></i></a>
+            <a href="#" class="linkedin fs-4 bg-page lh-1 p-1 rounded-circle me-1"><i class="bx bxl-linkedin"></i></a>
           </div>
         </div>
       </div>
     </footer>
-
-    <button type="button" class="btn btn-floating btn-lg bg-page" id="btn-back-to-top">
-      <i class="fas fa-arrow-up"></i>
-    </button>
-
-
-    <script>
-
-      let mybutton = document.getElementById("btn-back-to-top");
-
-      window.onscroll = function () {
-      scrollFunction();
-      };
-
-      function scrollFunction() {
-      if (
-      document.body.scrollTop > 20 ||
-      document.documentElement.scrollTop > 20
-      ) {
-      mybutton.style.display = "block";
-      } else {
-      mybutton.style.display = "none";
-      }
-      }
-
-      mybutton.addEventListener("click", backToTop);
-
-      function backToTop() {
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
-      }
-    </script>
 
 
     <script src="js/bootstrap.min.js"></script>

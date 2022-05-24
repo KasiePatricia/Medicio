@@ -4,14 +4,6 @@
     box-sizing: border-box;
   }
 
-  #btn-back-to-top {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    display: none;
-    z-index: 1000;
-  }
-
   .bg-page {
     background: #3fbbc0;
     color: #fff;
@@ -19,109 +11,13 @@
 
   body {
     font-family: "Open Sans", sans-serif;
-    color: #444444;
   }
 
-  .navbar a {
-    color: #626262;
-  }
-
-  a:hover {
-      color: #65c9cd;
-      text-decoration: none;
-      cursor: pointer;
-  }
-
-  h1, h2, h3, h4, h5, h6, .navbar a, .navbar a:focus, #hero .btn-read, .my-btn {
+  h1, h2, h3, h4, h5, h6, .navbar a, .navbar a:focus {
     font-family: "Roboto", sans-serif;
   }
 
-  section {
-    padding: 60px 0;
-    overflow: hidden;
-  }
-
-  #topbar {
-      background: #3fbbc0;
-      color: #fff;
-      height: 40px;
-      z-index: 996;
-      transition: all 0.5s;
-  }
-
-  #topbar i {
-    padding-right: 6px;
-    line-height: 0;
-  }
-
-  .gg {
-    top: 40px;
-  }
-
-.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-    color: #3fbbc0;
-}
-
-#hero .btn-read, .my-btn {
-    font-weight: 500;
-    font-size: 14px;
-    letter-spacing: 1px;
-    display: inline-block;
-    padding: 14px 32px;
-    border-radius: 4px;
-    transition: 0.5s;
-    line-height: 1;
-    color: #fff;
-    background: #3fbbc0;
-}
-
-  .featured-services .icon i {
-    color: #3fbbc0;
-    transition: all 0.3s ease-in-out;
-  }
-
-  .featured-services .icon-box {
-    position: relative;
-    overflow: hidden;
-    background: #fff;
-    box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
-    transition: all 0.3s ease-in-out;
-    z-index: 1;
-  }
-
-  .featured-services .icon-box::before {
-    content: "";
-    position: absolute;
-    background: #d9f1f2;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    top: 100%;
-    transition: all 0.3s;
-    z-index: -1;
-  }
-  .featured-services .icon-box:hover::before {
-    background: #3fbbc0;
-    top: 0;
-    border-radius: 0px;
-  }
-
-  .featured-services .icon-box:hover .title a, .featured-services .icon-box:hover .description, .featured-services .icon-box:hover .icon i {
-    color: #fff;
-  }
-
-  .section-title h2::after {
-    content: "";
-    position: absolute;
-    display: block;
-    background: #3fbbc0;
-    width: 50px;
-    height: 3px;
-    bottom: 0;
-    left: 47%;
-  }
-
-  .bd-color {
+  .bd-color, .navbar a:hover, .navbar .active, .navbar .active:focus {
     color: #3fbbc0;
   }
 
@@ -129,5 +25,4 @@
     .header {
         padding: 5px 0;
     }
-
   }
